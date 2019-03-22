@@ -122,5 +122,58 @@ namespace ServerCalculator.Test
             Assert.That(transport.NumOfPacket, Is.EqualTo(2));
    
         }
+
+        [Test]
+        public void TestMultiplicationZeroPositive()
+        {
+            transport.ClientEnqueue(new Packet((byte)1, 0, 5.0f), "User1", 9999);
+
+            server.SingleStep();
+
+            FakeData data = transport.ClientDequeue();
+            float result = BitConverter.ToSingle(data.data, 0);
+            Assert.That(result, Is.EqualTo(0));
+
+        }
+
+        [Test]
+        public void TestSumZeroPositive()
+        {
+            transport.ClientEnqueue(new Packet((byte)2, 0, 5.0f), "User1", 9999);
+
+            server.SingleStep();
+
+            FakeData data = transport.ClientDequeue();
+            float result = BitConverter.ToSingle(data.data, 0);
+            Assert.That(result, Is.EqualTo(5));
+
+        }
+
+        [Test]
+        public void TestSubtractionZeroPositive()
+        {
+            transport.ClientEnqueue(new Packet((byte)3, 0, 5.0f), "User1", 9999);
+
+            server.SingleStep();
+
+            FakeData data = transport.ClientDequeue();
+            float result = BitConverter.ToSingle(data.data, 0);
+            Assert.That(result, Is.EqualTo(-5));
+
+        }
+
+        [Test]
+        public void TestDivisionZeroPositive()
+        {
+            transport.ClientEnqueue(new Packet((byte)0, 0, 5.0f), "User1", 9999);
+
+            server.SingleStep();
+
+            FakeData data = transport.ClientDequeue();
+            float result = BitConverter.ToSingle(data.data, 0);
+            Assert.That(result, Is.EqualTo(0));
+
+        }
+
     }
 }
