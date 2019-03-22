@@ -1,0 +1,14 @@
+C:\Users\milan\source\repos\ServerTest\ServerTest\bin\Debug\ServerTest.exe.config
+C:\Users\milan\source\repos\ServerTest\ServerTest\bin\Debug\ServerTest.exe
+C:\Users\milan\source\repos\ServerTest\ServerTest\bin\Debug\ServerTest.pdb
+C:\Users\milan\source\repos\ServerTest\ServerTest\obj\Debug\ServerTest.csprojAssemblyReference.cache
+C:\Users\milan\source\repos\ServerTest\ServerTest\obj\Debug\ServerTest.csproj.CoreCompileInputs.cache
+C:\Users\milan\source\repos\ServerTest\ServerTest\obj\Debug\ServerTest.exe
+C:\Users\milan\source\repos\ServerTest\ServerTest\obj\Debug\ServerTest.pdb
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\bin\Debug\ServerTest.exe.config
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\bin\Debug\ServerTest.exe
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\bin\Debug\ServerTest.pdb
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\obj\Debug\ServerTest.csprojAssemblyReference.cache
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\obj\Debug\ServerTest.csproj.CoreCompileInputs.cache
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\obj\Debug\ServerTest.exe
+C:\WorkSpace\ServerCalcolatrice\ClientCalcolatrice\ServerTest\obj\Debug\ServerTest.pdb
